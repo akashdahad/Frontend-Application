@@ -1,0 +1,76 @@
+@media only screen and (min-width: 800px) {
+  .mainContent {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 180px;
+    .col1 {
+      width: 50vw;
+      border-radius: 20px;
+      .productImage {
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 60vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+          0 6px 20px 0 rgba(0, 0, 0, 0.09);
+        margin-bottom: 50px;
+      }
+      .despBox {
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 50vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+          0 6px 20px 0 rgba(0, 0, 0, 0.09);
+        margin-bottom: 60px;
+      }
+    }
+    .col2 {
+      width: 20vw;
+      border-radius: 20px;
+      .userInfo {
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 30vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+          0 6px 20px 0 rgba(0, 0, 0, 0.09);
+        margin-bottom: 50px;
+      }
+      .map {
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 50vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+          0 6px 20px 0 rgba(0, 0, 0, 0.09);
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .mainContent {
+    margin-top: 45vh;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .col1 {
+      width: 90vw;
+      height: 80vh;
+      border-radius: 20px;
+      margin-bottom: 50px;
+    }
+    .col2 {
+      width: 90vw;
+      height: 80vh;
+      border-radius: 20px;
+    }
+  }
+}
